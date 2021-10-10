@@ -1,0 +1,94 @@
+https://rosting.by
+
+#Functional Test Cases
+
+Test case 1
+Steps:
+1. Go to https://rosting.by
+2.In "tours window" Select  "Минск" in "откуда" 
+3.Select "Египет" in "куда" 
+4.Select "7" & "15" in "ночей"
+5.Select "13.10.2021" & "12.11.2021" in "Период вылетов"
+6.Click button "Найти"
+Expected Result:
+will display a list of tours
+
+Test case 2
+Steps:
+
+1.in the window that appears, select the first round
+2.Click button "Подробнее"
+Expected Result:
+ information about this course will be dropped
+ 
+Test case 3.
+Steps:
+1.in the window that appears click button "Отправить заявку"
+Expected Result:
+  see the application form
+
+Test case 4.
+Steps:
+1.In the dropped form 
+fill in all fields where there is an asterisk
+2.click on button "Отправить заявку"
+ Expected Result: the form should be submitted and the site should notify about its submission
+
+Test case 5.
+Steps:
+1.  Go to https://rosting.by
+2. in the section "Самые выгодные предложения" click button "забронировать" at first tour
+Expected Result:
+see the form from test case 4
+
+Test case 6.
+Steps:
+1.  Go to https://rosting.by
+2. In the main section click on advertising 
+3.go to page "подбор тура"
+4.Select 12 in "взрослых"
+5.Select 3 in "детей"
+6.Select 3 in "возраст детей"
+Expected Result:
+shouldn't show tours
+
+Test case 7
+Steps:
+1. Go to https://rosting.by
+2. In the main section Select "Авиабилеты" between "Туры" & "Авиабилеты"
+3.Select "Минск,Беларусь" in "город вылета"
+4.Select "Москва(Домодево)" in "город прибытия"
+5.Select "дату" in field "туда" & "обратно" 
+6.select 1 in "пассажир"
+Expected Result:
+go to https://tickets.rosting.by/flights/.. and see possible tickets
+
+Test case 8
+Steps:
+1. Go to https://rosting.by
+2. in the navigation click "отели"
+3. Click button "заказать звонок"
+4.fill in the correct phone number input field
+5.click button "БУДУ ЖДАТЬ"
+Expected Result:
+see a message about successful form submission
+
+Test case 9
+Steps:
+1. Go to https://rosting.by
+2. in the navigation click "отели"
+3. Click button "заказать звонок"
+4.fill in the empty phone number input field
+5.click button "БУДУ ЖДАТЬ"
+Expected Result:
+see alert with an error in filling out the number
+
+Test case 10
+Steps:
+1. Go to https://rosting.by
+2. in the navigation click "страны"
+3.select "Египет" in list 
+4.click button "забронировать" in first hotel
+5.in the window that appears click button "Отправить заявку"
+Expected Result:
+  see the application form
